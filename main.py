@@ -5,7 +5,7 @@ with open("./puzzle.txt") as file:
     puzzle = [line.strip() for line in file.readlines()]
 
 if __name__ == "__main__":
-    
-    print("Advent of Code 2023 - Day 1\n")
+
+    print("Advent of Code 2023 - Day 2\n")
     print("Part One:", part_one(puzzle))
     print("Part Two:", part_two(puzzle))
